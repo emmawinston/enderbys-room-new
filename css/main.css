@@ -88,8 +88,15 @@ img {
     background-color: #fff;
 }
 
+article img {
+    margin-top: 40px;
+}
+
 body p {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+   font-family: 'Libre Baskerville', serif;
+   font-size: 0.85em;
+   line-height: 1.8em;
    font-weight: 300;
 }
 
