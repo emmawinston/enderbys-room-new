@@ -77,7 +77,8 @@ textarea {
 body {
     font-size: 16px/26px Helvetica, Helvetica Neue, Arial;
 
-    background: url('../img/bg.jpg') no-repeat fixed;
+    background: url('../img/bg.jpg') no-repeat;
+    background-attachment: fixed;
     font-family: 'telegraphemregular';
 }
 
