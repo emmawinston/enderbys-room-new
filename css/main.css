@@ -1,5 +1,18 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
+@font-face {
+    font-family: 'telegraphemregular';
+    src: url('../fonts/telegraphem-webfont.eot');
+    src: url('../fonts/telegraphem-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/telegraphem-webfont.woff2') format('woff2'),
+         url('../fonts/telegraphem-webfont.woff') format('woff'),
+         url('../fonts/telegraphem-webfont.ttf') format('truetype'),
+         url('../fonts/telegraphem-webfont.svg#telegraphemregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html,
 button,
 input,
@@ -62,10 +75,16 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-size: 16px/26px Helvetica, Helvetica Neue, Arial;
 
     background: url('../img/bg.jpg') no-repeat;
     background-size: cover;
+    font-family: 'telegraphemregular';
+}
+
+body p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
 }
 
 .wrapper {
@@ -95,7 +114,6 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
 
     color: #444;
 }
@@ -210,6 +228,7 @@ nav a:hover {
 
     .title {
         float: left;
+        font-weight: normal;
     }
 
     /* nav {
@@ -223,12 +242,14 @@ nav a:hover {
 
     .main article {
         float: right;
-        width: 57%;
+        width: 70%;
+        background-color:rgba(255,255,255,0.9);
+        padding: 0 30px;
     }
 
     .main nav {
         float: left;
-        width: 28%;
+        width: 15%;
     }
 }
 
