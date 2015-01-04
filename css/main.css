@@ -166,8 +166,9 @@ nav a:hover {
    ========================================================================== */
 
 blockquote {
-    border-left: 3px solid #444;
+    border-left: 1px solid #444;
     margin-left: 20px;
+    padding-left: 20px;
 }
 
 
