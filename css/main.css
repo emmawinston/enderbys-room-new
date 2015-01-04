@@ -78,7 +78,7 @@ body {
     font-size: 16px/26px Helvetica, Helvetica Neue, Arial;
 
     background: #fff url('../img/bg.png') no-repeat center bottom;
-    background-position: center -20%;
+    background-position: center bottom;
     background-size: 100% auto;
     background-attachment: fixed;
     font-family: 'telegraphemregular';
@@ -279,6 +279,11 @@ h1, h2, h3, h4, h5 {
 /* ============
     WIDE: Main
    ============ */
+
+   body {
+    background-color: #fff;
+    background-position: center -20%;
+   }
 
     .main article {
         float: right;
