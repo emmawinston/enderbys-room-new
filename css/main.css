@@ -150,9 +150,6 @@ nav a:hover {
 }
 
 .main nav {
-    color: white;
-    position: fixed;
-    margin-top: 80px;
     /* padding: 0px 5% 10px; */
 }
 
@@ -298,6 +295,8 @@ h1, h2, h3, h4, h5 {
     .main nav {
         float: left;
         width: 15%;
+        position: fixed;
+        margin-top: 80px;
     }
 }
 
