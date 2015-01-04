@@ -87,6 +87,10 @@ body p {
    font-weight: 300;
 }
 
+body.light {
+    opacity: 0.9;
+}
+
 .wrapper {
     width: 90%;
     margin: 0 5%;
