@@ -165,7 +165,10 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-
+q {
+    border-left: 3px solid #444;
+    margin-left: 20px;
+}
 
 
 
