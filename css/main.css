@@ -151,6 +151,8 @@ nav a:hover {
 
 .main nav {
     color: white;
+    position: fixed;
+    margin-top: 100px;
     /* padding: 0px 5% 10px; */
 }
 
@@ -254,6 +256,7 @@ iframe {
     .title {
         float: left;
         font-weight: normal;
+        position: fixed;
     }
 
     /* nav {
@@ -267,7 +270,8 @@ iframe {
 
     .main article {
         float: right;
-        width: 70%;
+        width: 65%;
+        margin-top: 100px;
         background-color:rgba(255,255,255,0.9);
         padding: 0 30px;
         -moz-box-shadow: 0 0 5px #888;
