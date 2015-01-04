@@ -165,7 +165,7 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-q {
+blockquote {
     border-left: 3px solid #444;
     margin-left: 20px;
 }
