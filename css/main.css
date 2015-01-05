@@ -82,6 +82,8 @@ body {
     background-size: 100% auto;
     background-attachment: fixed;
     font-family: 'telegraphemregular';
+
+    color: #444;
 }
 
 img {
@@ -107,6 +109,18 @@ body.light {
 .wrapper {
     width: 90%;
     margin: 0 5%;
+}
+
+.social {
+    font-size: 1.8em;
+    text-align: center;
+    color: #444;
+}
+
+.social a {
+    display: inline;
+    text-align: center;
+    color: #444;
 }
 
 /* ===================
