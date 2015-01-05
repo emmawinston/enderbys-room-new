@@ -114,14 +114,15 @@ body.light {
 .social {
     font-size: 1.8em;
     text-align: center;
-    color: #444;
 }
 
-.social a {
+.social a,
+.social a:first-child {
     display: inline;
     text-align: center;
     color: #444;
 }
+
 
 /* ===================
     ALL: Orange Theme
