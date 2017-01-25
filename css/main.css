@@ -193,6 +193,11 @@ nav a:hover {
     color: black;
 }
 
+.main a:hover, 
+.main a:focus {
+    color: #424242;
+}
+
 
 /* ===============
     ALL: IE Fixes
