@@ -189,13 +189,15 @@ nav a:hover {
         min-height: 400px;
     }
 
-.main a {
+.main a:link,
+.main a:visited {
     color: black;
 }
 
 .main a:hover, 
-.main a:focus {
-    color: #424242;
+.main a:focus,
+.main a:active {
+    color: #666666;
 }
 
 
