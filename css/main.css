@@ -189,6 +189,9 @@ nav a:hover {
         min-height: 400px;
     }
 
+a {
+    color: black;
+}
 
 
 /* ===============
